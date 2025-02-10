@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Quiz Wizard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>The Quiz Wizard</h1>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </header>
+        <main>
+            <div class="image-container">
+                <img id="question-image" src="" alt="Question Image" style="max-width: 100%; height: auto;">
+            </div>
+            <div class="question-container">
+                <h2 id="question"></h2>
+                <ul id="options"></ul>
+            </div>
+            <button id="next-btn" disabled>Next</button>
+        </main>
+        <footer>
+            <p id="score"></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
